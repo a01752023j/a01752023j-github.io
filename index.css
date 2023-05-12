@@ -1,0 +1,167 @@
+  .Header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 260px;
+    flex-direction: row;
+    background-color: brown;
+
+  }
+  
+  .Foto {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+  }
+  
+  .Nombre {
+    font-size: 50px;
+    width: 20rem;
+    margin-left: 5rem;
+  }
+  
+  .Busqueda {
+    font-size: 50px;
+    width: 20rem;
+    margin-left: 5rem;
+  }
+  
+  .Estudios {
+    margin-top: 2rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .Escuelas {
+    background-color: rgb(85, 155, 224);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .Tecnologico {
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    margin-top: 0px;
+    flex-direction: column;
+
+  }
+  .Tec {
+    margin-top: 0px;
+    margin-left: .5rem;
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .NEscuela{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+  }
+  .Carrera {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .ITC {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .TextoC {
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .ImgTec {
+    flex: 1;
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url('./Imagenes/InenieriaenSistemas.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .ImgDesarrollo {
+    flex: 1;
+    height: 200px;
+    background-image: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url('./Imagenes/desarrollo-personal-1080x675.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .Carrera2 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .ITC2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .TextoC2 {
+    margin: 10px;
+    flex: 1;
+  }
+  .Habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Titulo {
+    font-size: 35px;
+    margin: 1rem;
+  }
+  .SkillImg {
+    height: 250px;
+    width: 250px;
+  }
+  .Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-top: 1rem;
+  }
+  .SkillText {
+    font-size: 20px;
+  }
+  .TechSkills {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Proyectos{
+    background-color:rgba(165, 42, 42, 0.886);
+    height: 200px;
+  }
+  .ProyectoT{
+    color:white;
+    font-size: 20px;
+  }
+
+
+  
