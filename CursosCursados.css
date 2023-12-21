@@ -1,0 +1,102 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: serif, sans-serif;
+  }
+  body::-webkit-scrollbar{
+    width: 5px;
+    background-color:transparent;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  ul{
+    color:white;
+  }
+  li{
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+  }
+
+
+
+  /* Empieza el header*/
+  .Header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    flex-direction: row;
+    background-color: #070989;
+    color:aliceblue;
+    width: 100%;
+    position: fixed;  /* Posicionamiento fijo */
+    top: 0;           /* Alineado en la parte superior */
+    left: 0;          /* Alineado a la izquierda */
+    width: 100%;      /* Ocupa todo el ancho de la pantalla */
+    z-index: 1000;
+
+  }
+
+  .Foto {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+  }
+  
+  .Nombre {
+    align-items: center;
+    font-size: 14px;
+    justify-content:center;
+    width: 5px;
+    margin-right: 50px;
+  }
+  
+  .StudiesHeader {
+    align-items: center;
+    font-size: 20px;
+    justify-content:center;
+    width: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+
+  .TIHeader{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+  }
+
+  .Softheader{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+
+  ul{
+    margin-top: 120px;
+    font-size: 30px;
+  }
